@@ -48,7 +48,7 @@
             // xrLabel7
             // 
             this.xrLabel7.Dpi = 100F;
-            this.xrLabel7.Font = new System.Drawing.Font("Tahoma", 9.75F);
+            this.xrLabel7.Font = new DevExpress.Drawing.DXFont("Tahoma", 9.75F);
             this.xrLabel7.LocationFloat = new DevExpress.Utils.PointFloat(10.00001F, 10.00001F);
             this.xrLabel7.Multiline = true;
             this.xrLabel7.Name = "xrLabel7";
@@ -115,7 +115,7 @@
             // xrLabel4
             // 
             this.xrLabel4.Dpi = 100F;
-            this.xrLabel4.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.xrLabel4.Font = new DevExpress.Drawing.DXFont("Tahoma", 10F);
             this.xrLabel4.LocationFloat = new DevExpress.Utils.PointFloat(10.00001F, 10.00001F);
             this.xrLabel4.Name = "xrLabel4";
             this.xrLabel4.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 5, 5, 100F);
@@ -127,7 +127,7 @@
             // xrLabel6
             // 
             this.xrLabel6.Dpi = 100F;
-            this.xrLabel6.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.xrLabel6.Font = new DevExpress.Drawing.DXFont("Tahoma", 10F);
             this.xrLabel6.LocationFloat = new DevExpress.Utils.PointFloat(461.4583F, 10.00001F);
             this.xrLabel6.Name = "xrLabel6";
             this.xrLabel6.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 5, 5, 100F);
@@ -154,7 +154,7 @@
             // xrLabel5
             // 
             this.xrLabel5.Dpi = 100F;
-            this.xrLabel5.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.xrLabel5.Font = new DevExpress.Drawing.DXFont("Tahoma", 10F);
             this.xrLabel5.LocationFloat = new DevExpress.Utils.PointFloat(240.625F, 10.00001F);
             this.xrLabel5.Name = "xrLabel5";
             this.xrLabel5.Padding = new DevExpress.XtraPrinting.PaddingInfo(5, 5, 5, 5, 100F);

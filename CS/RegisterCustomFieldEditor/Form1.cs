@@ -43,7 +43,7 @@ namespace RegisterCustomFieldEditor {
         private void RegisterEditorWithMask() {
             // Register a text editor with a phone number mask.
             EditingFieldExtensionsWin.Instance.RegisterMaskEditor("PhoneNumberEditor", "Phone Number Editor", 
-                "Custom", DevExpress.XtraEditors.Mask.MaskType.Simple, "(999)000-00-00");
+                "Custom", DevExpress.XtraEditors.Mask.MaskType.Simple, "(999) 000-0000");
         }
 
         private XtraReport CreateReport() {
