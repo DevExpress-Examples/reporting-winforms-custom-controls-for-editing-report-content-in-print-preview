@@ -1,5 +1,7 @@
-﻿Namespace RegisterCustomFieldEditor
-    Partial Public Class XtraReport1
+Namespace RegisterCustomFieldEditor
+
+    Partial Class XtraReport1
+
         ''' <summary>
         ''' Required designer variable.
         ''' </summary>
@@ -10,20 +12,20 @@
         ''' </summary>
         ''' <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-            If disposing AndAlso (components IsNot Nothing) Then
-                components.Dispose()
+            If disposing AndAlso (Me.components IsNot Nothing) Then
+                Me.components.Dispose()
             End If
+
             MyBase.Dispose(disposing)
         End Sub
 
-        #Region "Designer generated code"
-
+#Region "Designer generated code"
         ''' <summary>
         ''' Required method for Designer support - do not modify
         ''' the contents of this method with the code editor.
         ''' </summary>
         Private Sub InitializeComponent()
-            Dim resources As New System.ComponentModel.ComponentResourceManager(GetType(XtraReport1))
+            Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(RegisterCustomFieldEditor.XtraReport1))
             Me.ReportHeader = New DevExpress.XtraReports.UI.ReportHeaderBand()
             Me.xrLabel7 = New DevExpress.XtraReports.UI.XRLabel()
             Me.TopMargin = New DevExpress.XtraReports.UI.TopMarginBand()
@@ -35,11 +37,11 @@
             Me.xrLabel6 = New DevExpress.XtraReports.UI.XRLabel()
             Me.Detail = New DevExpress.XtraReports.UI.DetailBand()
             Me.xrLabel5 = New DevExpress.XtraReports.UI.XRLabel()
-            DirectCast(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me), System.ComponentModel.ISupportInitialize).BeginInit()
             ' 
             ' ReportHeader
             ' 
-            Me.ReportHeader.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() { Me.xrLabel7})
+            Me.ReportHeader.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.xrLabel7})
             Me.ReportHeader.Dpi = 100F
             Me.ReportHeader.HeightF = 100F
             Me.ReportHeader.Name = "ReportHeader"
@@ -47,7 +49,7 @@
             ' xrLabel7
             ' 
             Me.xrLabel7.Dpi = 100F
-            Me.xrLabel7.Font = New System.Drawing.Font("Tahoma", 9.75F)
+            Me.xrLabel7.Font = New DevExpress.Drawing.DXFont("Tahoma", 9.75F)
             Me.xrLabel7.LocationFloat = New DevExpress.Utils.PointFloat(10.00001F, 10.00001F)
             Me.xrLabel7.Multiline = True
             Me.xrLabel7.Name = "xrLabel7"
@@ -74,7 +76,7 @@
             ' 
             ' xrLabel2
             ' 
-            Me.xrLabel2.Borders = (CType((((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) Or DevExpress.XtraPrinting.BorderSide.Right) Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide))
+            Me.xrLabel2.Borders = CType(((((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) Or DevExpress.XtraPrinting.BorderSide.Right) Or DevExpress.XtraPrinting.BorderSide.Bottom)), DevExpress.XtraPrinting.BorderSide)
             Me.xrLabel2.Dpi = 100F
             Me.xrLabel2.LocationFloat = New DevExpress.Utils.PointFloat(240.625F, 32.99999F)
             Me.xrLabel2.Name = "xrLabel2"
@@ -85,7 +87,7 @@
             ' 
             ' xrLabel1
             ' 
-            Me.xrLabel1.Borders = (CType((((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) Or DevExpress.XtraPrinting.BorderSide.Right) Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide))
+            Me.xrLabel1.Borders = CType(((((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) Or DevExpress.XtraPrinting.BorderSide.Right) Or DevExpress.XtraPrinting.BorderSide.Bottom)), DevExpress.XtraPrinting.BorderSide)
             Me.xrLabel1.Dpi = 100F
             Me.xrLabel1.LocationFloat = New DevExpress.Utils.PointFloat(10.00001F, 32.99999F)
             Me.xrLabel1.Name = "xrLabel1"
@@ -96,7 +98,7 @@
             ' 
             ' xrLabel3
             ' 
-            Me.xrLabel3.Borders = (CType((((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) Or DevExpress.XtraPrinting.BorderSide.Right) Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide))
+            Me.xrLabel3.Borders = CType(((((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) Or DevExpress.XtraPrinting.BorderSide.Right) Or DevExpress.XtraPrinting.BorderSide.Bottom)), DevExpress.XtraPrinting.BorderSide)
             Me.xrLabel3.Dpi = 100F
             Me.xrLabel3.LocationFloat = New DevExpress.Utils.PointFloat(461.4583F, 32.99999F)
             Me.xrLabel3.Name = "xrLabel3"
@@ -108,7 +110,7 @@
             ' xrLabel4
             ' 
             Me.xrLabel4.Dpi = 100F
-            Me.xrLabel4.Font = New System.Drawing.Font("Tahoma", 10F)
+            Me.xrLabel4.Font = New DevExpress.Drawing.DXFont("Tahoma", 10F)
             Me.xrLabel4.LocationFloat = New DevExpress.Utils.PointFloat(10.00001F, 10.00001F)
             Me.xrLabel4.Name = "xrLabel4"
             Me.xrLabel4.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 5, 5, 100F)
@@ -120,7 +122,7 @@
             ' xrLabel6
             ' 
             Me.xrLabel6.Dpi = 100F
-            Me.xrLabel6.Font = New System.Drawing.Font("Tahoma", 10F)
+            Me.xrLabel6.Font = New DevExpress.Drawing.DXFont("Tahoma", 10F)
             Me.xrLabel6.LocationFloat = New DevExpress.Utils.PointFloat(461.4583F, 10.00001F)
             Me.xrLabel6.Name = "xrLabel6"
             Me.xrLabel6.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 5, 5, 100F)
@@ -131,7 +133,7 @@
             ' 
             ' Detail
             ' 
-            Me.Detail.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() { Me.xrLabel6, Me.xrLabel5, Me.xrLabel4, Me.xrLabel3, Me.xrLabel2, Me.xrLabel1})
+            Me.Detail.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.xrLabel6, Me.xrLabel5, Me.xrLabel4, Me.xrLabel3, Me.xrLabel2, Me.xrLabel1})
             Me.Detail.Dpi = 100F
             Me.Detail.HeightF = 100F
             Me.Detail.Name = "Detail"
@@ -141,7 +143,7 @@
             ' xrLabel5
             ' 
             Me.xrLabel5.Dpi = 100F
-            Me.xrLabel5.Font = New System.Drawing.Font("Tahoma", 10F)
+            Me.xrLabel5.Font = New DevExpress.Drawing.DXFont("Tahoma", 10F)
             Me.xrLabel5.LocationFloat = New DevExpress.Utils.PointFloat(240.625F, 10.00001F)
             Me.xrLabel5.Name = "xrLabel5"
             Me.xrLabel5.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 5, 5, 5, 100F)
@@ -152,25 +154,32 @@
             ' 
             ' XtraReport1
             ' 
-            Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() { Me.Detail, Me.TopMargin, Me.BottomMargin, Me.ReportHeader})
+            Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() {Me.Detail, Me.TopMargin, Me.BottomMargin, Me.ReportHeader})
             Me.Version = "16.2"
-            DirectCast(Me, System.ComponentModel.ISupportInitialize).EndInit()
-
+            CType((Me), System.ComponentModel.ISupportInitialize).EndInit()
         End Sub
 
-        #End Region
-
+#End Region
         Private ReportHeader As DevExpress.XtraReports.UI.ReportHeaderBand
-        Private xrLabel7 As DevExpress.XtraReports.UI.XRLabel
-        Private TopMargin As DevExpress.XtraReports.UI.TopMarginBand
-        Private BottomMargin As DevExpress.XtraReports.UI.BottomMarginBand
-        Private xrLabel4 As DevExpress.XtraReports.UI.XRLabel
-        Private xrLabel6 As DevExpress.XtraReports.UI.XRLabel
-        Private Detail As DevExpress.XtraReports.UI.DetailBand
-        Private xrLabel5 As DevExpress.XtraReports.UI.XRLabel
-        Public xrLabel2 As DevExpress.XtraReports.UI.XRLabel
-        Public xrLabel1 As DevExpress.XtraReports.UI.XRLabel
-        Public xrLabel3 As DevExpress.XtraReports.UI.XRLabel
 
+        Private xrLabel7 As DevExpress.XtraReports.UI.XRLabel
+
+        Private TopMargin As DevExpress.XtraReports.UI.TopMarginBand
+
+        Private BottomMargin As DevExpress.XtraReports.UI.BottomMarginBand
+
+        Private xrLabel4 As DevExpress.XtraReports.UI.XRLabel
+
+        Private xrLabel6 As DevExpress.XtraReports.UI.XRLabel
+
+        Private Detail As DevExpress.XtraReports.UI.DetailBand
+
+        Private xrLabel5 As DevExpress.XtraReports.UI.XRLabel
+
+        Public xrLabel2 As DevExpress.XtraReports.UI.XRLabel
+
+        Public xrLabel1 As DevExpress.XtraReports.UI.XRLabel
+
+        Public xrLabel3 As DevExpress.XtraReports.UI.XRLabel
     End Class
 End Namespace
