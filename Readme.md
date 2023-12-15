@@ -27,4 +27,4 @@ To register the standard text editor with a custom mask, use the [EditingFieldEx
 ## More Examples
 
 - [Reporting for WinForms - Create a Custom Progress Bar Control](https://github.com/DevExpress-Examples/reporting-winforms-custom-progress-bar-control)
-
+- [Reporting for Web Forms - How to use custom controls for editing report content in Print Preview](https://github.com/DevExpress-Examples/reporting-web-forms-custom-controls-for-editing-report-content-in-print-preview/)
